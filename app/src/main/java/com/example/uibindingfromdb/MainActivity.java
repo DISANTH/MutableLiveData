@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity
 //                    Toast.makeText( MainActivity.this, "user null", Toast.LENGTH_SHORT ).show();
 //                else
                 bin.setUser(user);
+                vm.setUsers();
             }
         });
     }
